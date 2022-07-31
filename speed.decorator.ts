@@ -135,6 +135,7 @@ function Update(sql: string) {
 }
 
 function Select(sql: string) {
+  console.log(sql);
   return function (
       target,
       propertyKey: string,
